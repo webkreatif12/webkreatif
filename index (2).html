@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Modern Web Tasarım | Türkiye & Azerbaycan</title>
+<style>
+:root{--bg:#0b0f19;--fg:#f8fafc;--mut:#94a3b8;--card:rgba(255,255,255,.04);--bd:rgba(255,255,255,.08);--g:linear-gradient(135deg,#a855f7,#3b82f6,#ec4899);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){--bg:#0b0f19}
+:root[data-theme="dark"]{--bg:#0b0f19}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter','Segoe UI',Tahoma,sans-serif;scroll-behavior:smooth}
+html{scroll-padding-top:90px}
+body{background:var(--bg);color:var(--fg);line-height:1.6;overflow-x:hidden}
+.tg{background:var(--g);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.glass{background:var(--card);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--bd);border-radius:20px}
+header{position:fixed;top:env(safe-area-inset-top,0px);width:100%;z-index:10;padding:18px 8%;display:flex;justify-content:space-between;align-items:center;background:rgba(11,15,25,.8);backdrop-filter:blur(12px)}
+.logo{font-size:1.4rem;font-weight:800}
+nav a{color:var(--fg);text-decoration:none;margin-left:28px;font-size:.95rem;opacity:.8}
+nav a:hover{opacity:1}
+.btn{display:inline-block;padding:14px 30px;border-radius:50px;background:var(--g);color:#fff;font-weight:600;text-decoration:none;border:0;cursor:pointer;font-size:1rem}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(168,85,247,.4)}
+section{padding:90px 8%}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding-top:130px;background:radial-gradient(circle at 50% 20%,rgba(168,85,247,.22),transparent 55%)}
+.hero h1{font-size:clamp(2.2rem,6vw,4.2rem);line-height:1.15;max-width:900px}
+.hero p{color:var(--mut);max-width:620px;margin:22px 0 34px;font-size:1.1rem}
+h2{font-size:clamp(1.7rem,4vw,2.5rem);text-align:center;margin-bottom:12px}
+.sub{text-align:center;color:var(--mut);margin-bottom:46px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.card{padding:30px}
+.card .ic{font-size:2rem;margin-bottom:12px}
+.card h3{margin-bottom:8px}
+.card p{color:var(--mut);font-size:.95rem}
+.steps .n{font-size:2.2rem;font-weight:800}
+.contact{max-width:900px;margin:auto;display:grid;grid-template-columns:1fr 1.3fr;gap:26px}
+.info{padding:30px}
+.info a{color:var(--fg)}
+.info p{margin:14px 0;color:var(--mut)}
+form{padding:30px;display:flex;flex-direction:column;gap:14px}
+input,textarea,select{width:100%;padding:13px 16px;border-radius:12px;border:1px solid var(--bd);background:rgba(255,255,255,.05);color:var(--fg);font-size:1rem}
+select option{color:#000}
+textarea{min-height:110px;resize:vertical}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row .btn{flex:1;text-align:center}
+.wa{background:#22c55e}
+footer{text-align:center;padding:30px;color:var(--mut);border-top:1px solid var(--bd);font-size:.9rem}
+@media(max-width:760px){nav a:not(.btn){display:none}.contact{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo tg">WebKreatif</div>
+<nav><a href="#hizmetler">Hizmetler</a><a href="#surec">Süreç</a><a href="#iletisim" class="btn" style="padding:10px 22px;color:#fff;opacity:1">İletişim</a></nav>
+</header>
+
+<section class="hero">
+<h1>İşletmenize Özel <span class="tg">Modern Web Siteleri</span></h1>
+<p>Türkiye ve Azerbaycan'daki işletmeler için markanıza özel tasarlanmış, hızlı, mobil uyumlu ve müşteri kazandıran web siteleri.</p>
+<a href="#iletisim" class="btn">Ücretsiz Teklif Alın</a>
+</section>
+
+<section id="hizmetler">
+<h2>Neler <span class="tg">Yapıyoruz?</span></h2>
+<p class="sub">İşletmenizin ihtiyacına göre tamamen özel çözümler</p>
+<div class="grid">
+<div class="glass card"><div class="ic">🎨</div><h3>Özel Tasarım</h3><p>Hazır şablon yok; markanıza ve sektörünüze özel görünüm.</p></div>
+<div class="glass card"><div class="ic">📱</div><h3>Mobil Uyumlu</h3><p>Telefon, tablet ve bilgisayarda kusursuz çalışır.</p></div>
+<div class="glass card"><div class="ic">🛒</div><h3>E-Ticaret</h3><p>Online satış yapmanız için güvenli mağaza sistemleri.</p></div>
+<div class="glass card"><div class="ic">🌍</div><h3>Çok Dilli</h3><p>Türkçe, Azerice, İngilizce ve Rusça dil seçenekleri.</p></div>
+<div class="glass card"><div class="ic">🚀</div><h3>SEO & Hız</h3><p>Google'da üst sıralara çıkmanıza yardımcı hızlı altyapı.</p></div>
+<div class="glass card"><div class="ic">🛠️</div><h3>Bakım & Destek</h3><p>Yayın sonrası güncelleme ve teknik destek.</p></div>
+</div>
+</section>
+
+<section id="surec">
+<h2>Nasıl <span class="tg">Çalışıyoruz?</span></h2>
+<p class="sub">4 basit adımda siteniz yayında</p>
+<div class="grid steps">
+<div class="glass card"><div class="n tg">01</div><h3>Görüşme</h3><p>İhtiyaçlarınızı ve hedeflerinizi dinleriz.</p></div>
+<div class="glass card"><div class="n tg">02</div><h3>Tasarım</h3><p>Size özel taslak hazırlar, onayınıza sunarız.</p></div>
+<div class="glass card"><div class="n tg">03</div><h3>Geliştirme</h3><p>Onaylanan tasarımı hayata geçiririz.</p></div>
+<div class="glass card"><div class="n tg">04</div><h3>Yayın</h3><p>Sitenizi yayınlar ve destek veririz.</p></div>
+</div>
+</section>
+
+<section id="iletisim">
+<h2>Bizimle <span class="tg">İletişime Geçin</span></h2>
+<p class="sub">Projenizi anlatın, 24 saat içinde dönüş yapalım</p>
+<div class="contact">
+<div class="glass info">
+<h3>İletişim Bilgileri</h3>
+<p>📧 <a href="mailto:webkreatif12@gmail.com">webkreatif12@gmail.com</a></p>
+<p>📍 Türkiye & Azerbaycan</p>
+</div>
+<form class="glass" id="f" onsubmit="return send(event)">
+<input id="ad" placeholder="Adınız Soyadınız" required>
+<input id="tel" placeholder="E-posta veya telefonunuz" required>
+<select id="tur"><option>Kurumsal Web Sitesi</option><option>E-Ticaret</option><option>Randevu / Rezervasyon Sitesi</option><option>Diğer</option></select>
+<textarea id="msj" placeholder="Projenizden kısaca bahsedin..." required></textarea>
+<button type="submit" class="btn" id="sb">Mesajı Gönder</button><p id="st" style="text-align:center;color:var(--mut)"></p>
+</form>
+</div>
+</section>
+
+<footer>© 2026 WebKreatif. Tüm hakları saklıdır.</footer>
+
+<script>
+async function send(e){
+e.preventDefault();
+var b=document.getElementById('sb'),s=document.getElementById('st');
+b.disabled=true;s.textContent='Gönderiliyor...';
+try{
+var r=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({access_key:'6e200cb0-19c7-4c24-bbf0-063f8d2d6678',subject:'WebKreatif - Yeni Teklif Talebi',from_name:'WebKreatif Web Sitesi',name:document.getElementById('ad').value,iletisim:document.getElementById('tel').value,hizmet:document.getElementById('tur').value,mesaj:document.getElementById('msj').value})});
+var j=await r.json();
+if(j.success){s.textContent='✅ Mesajınız iletildi, en kısa sürede dönüş yapacağız.';document.getElementById('f').reset();}else{throw 0}
+}catch(x){s.textContent='❌ Gönderilemedi. Lütfen webkreatif12@gmail.com adresine yazın.';}
+b.disabled=false;return false;
+}
+</script>
+</body>
+</html>
